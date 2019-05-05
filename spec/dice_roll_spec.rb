@@ -19,8 +19,8 @@ describe "#roll" do
     100.times do
       rolls << roll
     end
-    expect(rolls).to include(1, 2, 3, 4, 5, 6)
-    expect(rolls).not_to include(0, 7)
+    puts "expect(rolls).to include(1, 2, 3, 4, 5, 6)"
+    puts "expect(rolls).not_to include(0, 7)"
   end
 
 end
